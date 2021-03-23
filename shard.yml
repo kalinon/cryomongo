@@ -16,8 +16,9 @@ dependencies:
   db:
     github: crystal-lang/crystal-db
   durian:
-    github: 636f7374/durian.cr
-    version: ~> 0.1.5
+    # until https://github.com/636f7374/durian.cr/pull/7 is merged
+    github: kalinon/durian.cr
+    branch: patch-1
 
 development_dependencies:
   ameba:
