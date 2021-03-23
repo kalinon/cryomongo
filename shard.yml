@@ -10,8 +10,9 @@ license: MIT
 
 dependencies:
   bson:
-    github: elbywan/bson.cr
-    version: ~> 0.3.0
+    # until https://github.com/elbywan/bson.cr/pull/1 is merged
+    github: kalinon/bson.cr
+    branch: patch-1
   db:
     github: crystal-lang/crystal-db
   durian:
